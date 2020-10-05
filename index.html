@@ -18,6 +18,7 @@
             padding-top: 8px;
             letter-spacing: .5px;
             font-family: Arial, Helvetica, sans-serif;
+            margin-left: 16px;
     }       
         #credit-body-credit{
             padding-top: 8px;
@@ -48,8 +49,7 @@
             display: block;
             margin-block-start: 1em;
             margin-block-end: 1em;
-            margin-inline-start: 0px;
-            margin-inline-end: 0px;
+            margin-left: 16px;
             padding: 1px 0px;
             text-align:justify
     }
@@ -57,12 +57,54 @@
             color: red;
             cursor: pointer;
             text-decoration: none;
+    }
+        #email{
+            padding: 8px;
+            color:slategrey;
+            font-size: 16px;
+            background-color: #F0F1F1;
+            height: 39px;
+            border-radius: 5px;
+            border: 1px solid black;
+            width: 25%;
+            margin-left: 16px;
+    }
+        #img{
+            margin-left: 16px;
+    }
+        #li{
+            float: left;
+    }
+        #date{
+            color: #8b8d91;
+            margin-left: 16px;
 
         }
     </style>
 </head>
 
 <body>
+    
+    <!--Top-->
+    <ul id="main-header">
+        <li id="li" style="display: block; text-decoration: none;padding: 16px;" >
+            <a id="a" href="https://time.com/section/world/">
+                <span>
+                    World
+                </span>
+              </a>
+        </li>
+        <li id="li" style="display: block; text-decoration: none;padding: 16px; " >
+            <a id="a" style="text-align: center;" href="https://time.com/tag/brazil/">
+                <span>
+                    Brazil
+                </span>
+              </a>
+        </li>
+    </ul>
+
+    <br>
+    <br>
     <header id="main-header">
         <h1>Brazil Is Burning—and President Bolsonaro’s ‘Terminator’ Environment Minister Is Rolling Back More Protections</h1>
     </header> 
@@ -75,6 +117,16 @@
     <small id="credit-body-credit">
         Buda Mendes—Getty Images
     </small>
+
+
+    <!--Author and Date-->  
+    <p id="p">
+        By 
+    <a id="a" href="/author/ciara-nugent/">Ciara Nugent</a>                
+    </p>
+    <p id="date">
+        OCTOBER 1, 2020 3:57 PM EDT
+    </p>
 
     <!--Article Content Part One-->
     <p id="p">
@@ -116,7 +168,7 @@
     </p>   
     
    <!--Second Img-->      
-    <img src="https://api.time.com/wp-content/uploads/2020/10/brazil-pantanal-fires-2020-2.jpg?w=1000&;quality=85" alt="A volunteer works to douse a fire on Transpantaneira, the road that crosses the Pantanal, near Pocone in the Brazilian state of Mato Grosso on Sept. 11." title="A volunteer works to douse a fire on Transpantaneira, the road that crosses the Pantanal, near Pocone in the Brazilian state of Mato Grosso on Sept. 11." style="width: 1000px" >
+    <img id="img" src="https://api.time.com/wp-content/uploads/2020/10/brazil-pantanal-fires-2020-2.jpg?w=1000&;quality=85" alt="A volunteer works to douse a fire on Transpantaneira, the road that crosses the Pantanal, near Pocone in the Brazilian state of Mato Grosso on Sept. 11." title="A volunteer works to douse a fire on Transpantaneira, the road that crosses the Pantanal, near Pocone in the Brazilian state of Mato Grosso on Sept. 11." style="width: 1000px" >
     <br>
     <small id="credit-body-caption">
         A volunteer works to douse a fire on Transpantaneira, the road that crosses the Pantanal, near Pocone in the Brazilian state of Mato Grosso on Sept. 11.    
@@ -128,7 +180,7 @@
     
     <!--Third Img--> 
     <br>
-    <img src="https://api.time.com/wp-content/uploads/2020/10/brazil-pantanal-fires-2020-3.jpg?w=1000&;quality=85" alt="Firefighters work to put out a wildfire in the Porto Jofre region on Sept. 14." title="Firefighters work to put out a wildfire in the Porto Jofre region on Sept. 14." style="width: 1000px">
+    <img id="img" src="https://api.time.com/wp-content/uploads/2020/10/brazil-pantanal-fires-2020-3.jpg?w=1000&;quality=85" alt="Firefighters work to put out a wildfire in the Porto Jofre region on Sept. 14." title="Firefighters work to put out a wildfire in the Porto Jofre region on Sept. 14." style="width: 1000px">
     <br>
     <small id="credit-body-caption">
         Firefighters work to put out a wildfire in the Porto Jofre region on Sept. 14.     
@@ -140,7 +192,7 @@
 
     <!--4th Img-->
     <br>
-    <img src="https://api.time.com/wp-content/uploads/2020/10/brazil-pantanal-fires-2020-4.jpg?w=1000&;quality=85" alt="A Cocoi heron in a damaged section of the Pantanal on Sept. 13." title="A Cocoi heron in a damaged section of the Pantanal on Sept. 13." style="width: 1000px">
+    <img id="img" src="https://api.time.com/wp-content/uploads/2020/10/brazil-pantanal-fires-2020-4.jpg?w=1000&;quality=85" alt="A Cocoi heron in a damaged section of the Pantanal on Sept. 13." title="A Cocoi heron in a damaged section of the Pantanal on Sept. 13." style="width: 1000px">
     <br>
     <small id="credit-body-caption">
         A Cocoi heron in a damaged section of the Pantanal on Sept. 13.      
@@ -165,7 +217,7 @@
     </p>
 
     <!--5th Img-->
-    <img src="https://api.time.com/wp-content/uploads/2020/10/brazil-pantanal-fires-2020-5.jpg?w=1000&;quality=85" alt="Smoke billows from fires near the Transpantaneira road on Sept. 14." title="Smoke billows from fires near the Transpantaneira road on Sept. 14." style="width: 1000px">
+    <img id="img" src="https://api.time.com/wp-content/uploads/2020/10/brazil-pantanal-fires-2020-5.jpg?w=1000&;quality=85" alt="Smoke billows from fires near the Transpantaneira road on Sept. 14." title="Smoke billows from fires near the Transpantaneira road on Sept. 14." style="width: 1000px">
     <br>
     <small id="credit-body-caption">
         Smoke billows from fires near the Transpantaneira road on Sept. 14.      
@@ -195,7 +247,7 @@
     </p>
 
     <!--5th Img-->
-    <img src="https://api.time.com/wp-content/uploads/2020/10/brazil-pantanal-fires-2020-6.jpg?w=800&;quality=85" alt="Ricardo Salles, Brazil's environment minister, speaks to journalists in Sao Paulo in August 2019. Activists say Salles is working to appease certain business sectors that form a crucial part of Bolsonaro's support base." title="Ricardo Salles, Brazil's environment minister, speaks to journalists in Sao Paulo in August 2019. Activists say Salles is working to appease certain business sectors that form a crucial part of Bolsonaro's support base." style="width: 800px">    
+    <img id="img" src="https://api.time.com/wp-content/uploads/2020/10/brazil-pantanal-fires-2020-6.jpg?w=800&;quality=85" alt="Ricardo Salles, Brazil's environment minister, speaks to journalists in Sao Paulo in August 2019. Activists say Salles is working to appease certain business sectors that form a crucial part of Bolsonaro's support base." title="Ricardo Salles, Brazil's environment minister, speaks to journalists in Sao Paulo in August 2019. Activists say Salles is working to appease certain business sectors that form a crucial part of Bolsonaro's support base." style="width: 800px">    
     <br>
     <small id="credit-body-caption">
         Ricardo Salles, Brazil's environment minister, speaks to journalists in Sao Paulo in August 2019. Activists say Salles is working to appease certain business sectors that form a crucial part of Bolsonaro's support base.   
@@ -250,7 +302,7 @@
     </p>
 
     <!--6th Img-->
-    <img src="https://api.time.com/wp-content/uploads/2020/10/brazil-pantanal-fires-2020-7.jpg?w=1000&;quality=85" alt="A deer receives care on Sept. 17." title="A deer receives care on Sept. 17." style="width: 1000px">
+    <img id="img" src="https://api.time.com/wp-content/uploads/2020/10/brazil-pantanal-fires-2020-7.jpg?w=1000&;quality=85" alt="A deer receives care on Sept. 17." title="A deer receives care on Sept. 17." style="width: 1000px">
     <br>
     <small id="credit-body-caption">
         A deer receives care on Sept. 17.    
@@ -262,7 +314,7 @@
 
     <!--7th Img-->
     <br>
-    <img src="https://api.time.com/wp-content/uploads/2020/10/brazil-pantanal-fires-2020-8.jpg?w=1000&;quality=85" alt="Inmates organize food to be distributed to animals on Sept. 19." title="Inmates organize food to be distributed to animals on Sept. 19." style="width: 1000px">
+    <img id="img" src="https://api.time.com/wp-content/uploads/2020/10/brazil-pantanal-fires-2020-8.jpg?w=1000&;quality=85" alt="Inmates organize food to be distributed to animals on Sept. 19." title="Inmates organize food to be distributed to animals on Sept. 19." style="width: 1000px">
     <br>
     <small id="credit-body-caption">
         Inmates organize food to be distributed to animals on Sept. 19   
@@ -274,7 +326,7 @@
 
     <!--8th Img-->
     <br>
-    <img src="https://api.time.com/wp-content/uploads/2020/10/brazil-pantanal-fires-2020-9.jpg?w=1000&;quality=85" alt="Farmers wait for a meeting with politicians on Sept. 19 to discuss the record fires in the Pantanal during the dry season." title="Farmers wait for a meeting with politicians on Sept. 19 to discuss the record fires in the Pantanal during the dry season." style="width: 1000px">
+    <img id="img" src="https://api.time.com/wp-content/uploads/2020/10/brazil-pantanal-fires-2020-9.jpg?w=1000&;quality=85" alt="Farmers wait for a meeting with politicians on Sept. 19 to discuss the record fires in the Pantanal during the dry season." title="Farmers wait for a meeting with politicians on Sept. 19 to discuss the record fires in the Pantanal during the dry season." style="width: 1000px">
     <br>
     <small id="credit-body-caption">
         Farmers wait for a meeting with politicians on Sept. 19 to discuss the record fires in the Pantanal during the dry season.   
@@ -316,7 +368,7 @@
     </p>
     
     <!--8th Img-->  
-    <img src="https://api.time.com/wp-content/uploads/2020/10/brazil-pantanal-fires-2020-10.jpg?w=1000&;quality=85" alt="A dead alligator in the wetlands on Sept. 12." title="A dead alligator in the wetlands on Sept. 12." style="width: 1000px">
+    <img id="img" src="https://api.time.com/wp-content/uploads/2020/10/brazil-pantanal-fires-2020-10.jpg?w=1000&;quality=85" alt="A dead alligator in the wetlands on Sept. 12." title="A dead alligator in the wetlands on Sept. 12." style="width: 1000px">
     <br>
     <small id="credit-body-caption">
         A dead alligator in the wetlands on Sept. 12.    
@@ -347,11 +399,31 @@
         Sign up to receive the top stories you need to know right now.
     </h3>
 
+    <form action="https://cloud.newsletters.time.com/Processing-opt-in/" method="POST" target="hidden_iframe">
+        <div>
+            <input type="email" name="email" placeholder="Enter your email address" id="email" required>
+        </div>
+        <br>
+        <input type="submit" value="SIGN UP NOW" name="submit" style="color: white;background-color: red; font-size: 12px; padding: 10px 12px;border: 2px solid red; border-radius: 3px; margin-left: 16px;">
+        <div id="p">
+            You can unsubscribe at any time. By signing up you are agreeing to our 
+            <a id="a" href="https://time.com/privacy/privacy_terms_service.html" target="_blank">Terms of Use</a>
+            and 
+            <a id="a" href="https://time.com/privacy/generic_privacy_new.html" target="_blank">Privacy Policy</a>
+            . This site is protected by reCAPTCHA and the Google 
+            <a id="a" href="https://policies.google.com/privacy">Privacy Policy</a>
+            and 
+            <a id="a" href="https://policies.google.com/terms">Terms of Service</a>
+            apply.
+        </div>
+    </form>
+    <hr>
 
-
-
-
-
+    <p id="p">
+        <strong>Write to </strong>
+        Ciara Nugent at 
+        <a id="a" href="mailto:ciara.nugent@time.com?subject=(READER FEEDBACK) Brazil Is Burning—and President Bolsonaro’s ‘Terminator’ Environment Minister Is Rolling Back More Protections&;body=https%3A%2F%2Ftime.com%2F5895167%2Fbrazil-fires-ricardo-salles-environment%2F" target="_self" rel="noopener noreferrer">ciara.nugent@time.com</a>
+    </p>
 
 </body>
 </html>
