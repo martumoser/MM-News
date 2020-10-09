@@ -1,0 +1,23 @@
+#main-header{
+    margin-bottom: 16px;
+    margin-top: 8px;
+    font-family: Georgia, Times, serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 30px;
+    letter-spacing: .5px;
+    display: block;
+    text-align: center;
+}
+
+a{
+    background-color: transparent;
+    text-decoration: none;
+    color: red;
+    padding: 1px 0;
+    font-weight: 400;
+}
+
+.article-content{
+
+}
