@@ -2,16 +2,191 @@ body{
     background-color: #ffffff;
     width: 100%;
     margin: 0;
-    display: block;
+    color: rgb(0,0,0,.95);
 }
 
 .article-content{
-    margin: 0 auto;
-    max-width: 840px;
-    padding-bottom: 24px;
+    max-width: 800px;
 }
 
-#main-header{
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-right: 0;
+    margin-left: auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+p,ul{
+    font-family: Georgia, Times, serif;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    line-height: 28px;
+    letter-spacing: .5px;
+}
+
+.padded{
+    padding-left: 56px;
+    padding-right: 56px;
+    max-width: none;
+    min-width: 651px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div{
+    display: block;
+}
+
+h2{
+    margin-block-start: 0.83em;
+    margin-inline-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-block-end: 0px;
+    display: block;
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 640px;
+    width: 100%;
+}
+
+.image{
+    max-width: 640px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-right: 0px;
+    margin-left: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+img{
+    height: auto;
+    margin: 0 auto;
+}
+
+.credit-body-caption{
+    font-size: 13px;
+    letter-spacing: .5px;
+    font-weight: 400;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    line-height: 15px;
+    text-align: left;
+    caption-side: bottom;
+}
+
+.credit-body-credit{
+    line-height: 15px;
+    letter-spacing: 0;
+    font-size: 12px;
+    color: #a3a5a9;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    text-align: left;
+}
+
+a{
+    background-color: transparent;
+    text-decoration: none;
+    color: red;
+    padding: 1px 0;
+    font-weight: 400;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.article-content p{
+    font-size: 17px;
+}
+
+b{
+    font-weight: 700;
+}
+
+i{
+    font-style: italic;
+}
+
+.article-body{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.author{
+    letter-spacing: 0.5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+
+.author-text{
+    text-align: left;
+    margin-right: 0;
+    color: #8b8d91;
+    max-width: 640px;
+    line-height: 1.85;
+    text-transform: uppercase;
+    margin-left: auto;
+}
+
+.padding-8-right{
+    padding-right: 8px;
+}
+
+.article-info{
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.intro-top{
+    position: relative;
+    margin-bottom: 0;
+}
+
+.partial.breadcrumbs .breadcrumbs-container{
+    display: table;
+    margin: auto;
+}
+
+.breadcrumb-list{
+    padding:0;
+    margin: 0;
+    list-style: none;
+}
+
+.breadcrumb-item{
+    font-family:'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    display: block;
+
+}
+
+ul{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.heading-content{
     margin-bottom: 16px;
     margin-top: 8px;
     font-family: Georgia, Times, serif;
@@ -31,47 +206,33 @@ h1{
     margin-inline-end: 0px;
 }
 
-*{
-    box-sizing: border-box;
+.article-header{
+    margin: 0 auto;
+    max-width: 840px;
 }
 
-a{
-    background-color: transparent;
-    text-decoration: none;
-    color: red;
-    padding: 1px 0;
-    font-weight: 400;
+.padding-24-bottom{
+    padding-bottom: 24px;
 }
 
-p{
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+.text-aling-center{
+    text-align: center;
 }
 
-p,ul{
-    font-family: Georgia, Times, serif;
-    margin-top: 28px;
-    margin-bottom: 28px;
-    line-height: 28px;
-    letter-spacing: .5px;
-}
-    
-.padded{
-    padding-left: 56px;
-    padding-right: 56px;
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
+.content.article{
+    max-width: 1120px;
+    margin: 0 auto;
 }
 
-div{
+main{
     display: block;
 }
 
-.dropcap{
+.body.content{
+    margin-bottom: 12px;
+}
+
+.body.content div.padded span.dropcap{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 48px;
     font-weight: 400;
@@ -81,79 +242,148 @@ div{
     border-left: 2px solid red;
 }
 
-.article-content p{
-    font-size: 17px;
-    color: black;
+.container-full{
+    padding: 50px 24px 24px;
+    margin: 0 auto 4px;
+    width: 100%;
+    max-width: 1260px;
+    box-shadow: none;
+}
+ 
+.body.content div.padded>*{
+    margin-right: 0;
+    margin-left: auto;
+    max-width: 640px;
+    width: 100%;
 }
 
-b{
+h1,h2,h3{
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: .5px;
+}
+
+.newsletter-signup-content-wrapper h3 span{
+    margin-bottom: 0;
+    color: #e90606;
+    font-size: 22px;
     font-weight: 700;
 }
 
-i{
-    font-style: italic;
+.newsletter-signup-content-wrapper h3{
+    display: inline;
+    font-size: 21px;
+    margin: 0;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 400;
 }
 
-.article-content h2{
-    font-size: 24px;
+h3{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
-.image{
-    max-width: 800px;
-    position: relative;
-    text-align: center;
+.newsletter-signup-content-wrapper .newsletter-input{
+    padding:8px;
+    height: 39px;
+    color: #8b8d91;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #f0f1f2;
 }
 
-img{
-    height: auto;
+input{
+    line-height: normal;
+}
+
+input,button{
+    font: inherit;
+    margin: 0;
+}
+
+button{
+    cursor: pointer;
+    overflow: visible;
+    font: inherit;
+}
+
+.component .newsletter .button-signup-container{
+    width: 170px;
+    display: inline-block;
+    padding-top: 0;
+    vertical-align: top;
     margin: 0 auto;
 }
 
-.credit-body-caption{
-    font-size: 13px;
-    letter-spacing: .5px;
-    font-weight: 400;
-    display: inline;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 8px;
-    line-height: 15px;
-    text-align: left;
+.component .newsletter .button-signup-container button{
+    margin: 0 0 0 20px;
+    width: 150px;
 }
 
-.credit-body-credit{
-    line-height: 15px;
-    letter-spacing: 0;
+.newsletter-signup-content-wrapper .newsletter-signup-button{
+    background-color: #e90606;
+    color: #fff;
+    border: 2px solid #e90606;
+    border-radius: 3px;
     font-size: 12px;
-    color: #a3a5a9;
-    margin-left: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    text-align: left;
-}
-
-.article-body{
-    padding-left: 56px;
-    padding-right: 56px;
-    min-width: 651px;
-    max-width: none;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 24px;
-    margin-bottom: 24px;
-}
-
-.author{
-    letter-spacing: 0.5px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 12px;
-    max-width: 640px;
-    line-height: 1.85;
+    font-weight: 700;
+    line-height: 16px;
+    padding: 10px 12px;
+    letter-spacing: 1.21px;
     text-transform: uppercase;
-    color: #8b8d91;
-    text-align: left;
+}
+
+.newsletter{
+    display: flex;
+    background-color: initial;
+    border-top: 1px solid #d7d7d9;
+    border-bottom: 1px solid #d7d7d9;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding: 25px 0 20px;
+}
+
+.component{
     letter-spacing: .5px;
-    display: inline block;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+}
+.newsletter-signup-inline{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.newsletter-signup-content-wrapper .newsletter-signup{
+    flex-direction: inherit;
+    display: flex;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 16px;
+    padding: 0 5px;
+}
+
+.newsletter-signup-content-wrapper .tout-content{
+    font-size: 12px;
+    margin: 20px auto 0;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.content .article div.padded .author-feedback-text{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: .25px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
