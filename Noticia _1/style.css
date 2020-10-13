@@ -144,7 +144,7 @@ main.article .intro-top{
 }
 .conteiner-full.single-column .article-content{
     max-width: 800px;
-    width: calc(100% - 320px);
+    margin: 0 auto;
 }
 .margin-8-bottom{
     margin-bottom: 8px;
@@ -157,6 +157,9 @@ main.article .intro-top{
 .article-header{
     margin: 0 auto;
     max-width: 840px;
+}
+.conteiner-full.single-column main.content.article{
+    max-width: none;
 }
 .padding-8-right{
     padding-right: 8px;
@@ -538,4 +541,3 @@ button{
     text-transform: uppercase;
     margin-bottom: 10px;
 }
-
